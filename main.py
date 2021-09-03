@@ -241,7 +241,7 @@ def surface_area_3D():
         if pyramid == "square based pyramid":
             base_side = float(input("Dimension of one side of the base? "))
             height = float(input("Dimension of height of pyramid: "))
-            surface_area_of_shape = (base_side**2+2*side*(sqrt((base_side**2)/4+(height**2))))
+            surface_area_of_shape = (base_side**2+2*base_side*(sqrt((base_side**2)/4+(height**2)))) 
 
         if pyramid == "triangular based pyramid":
             base_triangle_base = float(input("Dimension of the base in the base triangle: ")) 
